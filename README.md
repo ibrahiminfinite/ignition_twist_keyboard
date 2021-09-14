@@ -1,7 +1,7 @@
 # ignition_twist_keyboard
-Modified version of  https://github.com/ros-teleop/teleop_twist_keyboard
-The ROS publish features has been replaced with the ignition transport publish so that this keyboard can directly be used with ignition
-This keyboard has additional key bindings (y /h) to control robot height as this keyboard will be used for a legged robot testing for my purposes
+Modified version of  https://github.com/ros-teleop/teleop_twist_keyboard.  
+The ROS publish features has been replaced with the ignition transport publish so that this keyboard can directly be used with ignition.  
+This keyboard has additional key bindings (y /h) to control robot height as this keyboard will be used for a legged robot testing for my purposes.  
 Additionally the Z linear velocity is hardcoded to zero, be sure to change it if using with Aerial vehicles.
 
 ## Features
